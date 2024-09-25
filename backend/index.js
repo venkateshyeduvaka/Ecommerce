@@ -20,7 +20,7 @@ app.use(express.json());
 
 app.use("/api", router);
 
-const PORT = 5001 || process.env.PORT;
+const PORT = process.env.PORT || 5002;
 
 
 
